@@ -1,0 +1,148 @@
+.sub-heading h3 {
+    color: #0C65E5;
+}
+.sub-heading {
+    text-align: center;
+
+}
+.main-heading {
+    text-align: center;
+}
+.support-content {
+    text-align: center;
+    margin-bottom: 8%;
+}
+.support-content p {
+    font-size: 20px;
+    
+}
+#contact-usSection {
+    margin-top: 6%;
+}
+.contactUs-image img {
+    width: 550px;
+}
+.phone_number {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.email_id {
+    margin-bottom: 30px;
+}
+.company_name {
+    margin-bottom: 30px;
+}
+.message_box {
+    margin-bottom: 30px;
+}
+.name_box input {
+    border: 1px solid #0C65E5;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    height: 50px;
+}
+.name_box input::placeholder {
+    color: #CDD2DD;
+}
+.name_box input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.email_box input {
+    border: 1px solid #0C65E5;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    height: 50px;
+}
+.email_box input::placeholder {
+    color: #CDD2DD;
+}
+.email_box input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.phone_number input {
+    border: 1px solid #0C65E5;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    height: 50px;
+}
+.phone_number input::placeholder {
+    color: #CDD2DD;
+}
+.phone_number input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.email_id input {
+    border: 1px solid #0C65E5;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    height: 50px;
+}
+.email_id input::placeholder {
+    color: #CDD2DD;
+}
+.email_id input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.company_name input {
+    border: 1px solid #0C65E5;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    height: 50px;
+}
+.company_name input::placeholder {
+    color: #CDD2DD;
+}
+.company_name input:focus {
+    box-shadow: none;
+    outline: none;
+}
+.message_box textarea {
+    border: 1px solid #0C65E5;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    
+}
+.message_box textarea::placeholder {
+    color: #CDD2DD;
+}
+.message_box textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+.submit_button button {
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #0C65E5;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.submit_button button:focus {
+    outline: none;
+    box-shadow: none;
+}

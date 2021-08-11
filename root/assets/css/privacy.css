@@ -1,0 +1,115 @@
+/* ----------privacy policy css--------- */
+.sub-heading h3 {
+    color: #0C65E5;
+}
+.sub-heading {
+    text-align: center;
+
+}
+.main-heading {
+    text-align: center;
+}
+#privacy-policySection {
+    margin-top: 6%;
+}
+.policy-content {
+    text-align: center;
+}
+.policy-content p {
+    font-size: 20px;
+}
+.policy-content-heading {
+    margin-top: 7%;
+}
+.policy-content-heading h1 {
+    margin-bottom: 20px;
+}
+/* -------------faq page css------------ */
+#faqSection {
+margin-top: 6%;
+}
+/* ----- accordion------- */
+#accordion {
+    margin-top: 12%;
+}
+.middle-area {
+    padding: 10px;
+}
+.single-card {
+    display: flex;
+   
+}
+.collapse {
+    margin-bottom: 0px;
+}
+.drop-button button {
+	outline: 0;
+   
+}
+
+.dropImage {
+	width: 50px;
+	padding-right: 20px;
+}
+.drop-button button:focus {
+	outline: 0;
+	box-shadow: none;
+}
+.card-number {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 16px;
+    padding-top: 6px;
+}
+.card-1 {
+    margin-bottom: 14px;
+    border-radius: 16px! important;
+    background-color: #E6EFFD;
+    
+}
+.card-header:first-child {
+    border-radius: 14px!important;
+}
+.card-header {
+    background-color:transparent!important;
+    
+}
+.card-title {
+    font-size: 17px;
+  color: black; 
+  font-weight: 500;
+  margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.card-heading {
+    margin-bottom: 0px;
+   border: none!important;
+   background-color: #F7F3FE;
+}
+.card-heading:hover {
+    text-decoration: none;
+}
+.card-body {
+   margin-bottom: 16px;
+}
+.card-body p {
+    padding: 20px;
+    background-color: white;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#faqSection .accordion .card-header:before {
+    font-family: 'lineAwesome';
+    /* content: "\f110"; */
+    display: inline-block;
+    font-size: 1.4rem;
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+
