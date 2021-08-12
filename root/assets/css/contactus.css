@@ -18,6 +18,12 @@
 }
 #contact-usSection {
     margin-top: 6%;
+   
+}
+.background_map {
+    background-image: url('../images/Union\ 3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 .contactUs-image img {
     width: 550px;
@@ -145,4 +151,18 @@
 .submit_button button:focus {
     outline: none;
     box-shadow: none;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+    .contactUs-image {
+        margin-bottom: 40px;
+    }
+    .name_box {
+        margin-bottom: 30px;
+    }
+    .contactUs-image img{
+        width: 350px;
+    }
 }
