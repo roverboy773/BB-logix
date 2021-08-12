@@ -115,6 +115,9 @@ body {
 .logix-coin-logo-image img { 
     width: 80%;
 }
+.logix-coin-logo-image {
+    margin-top: 25%;
+}
 #logixCoinLogoSection {
     background-image: url('../images/rect_hexagon.png');
     background-size: cover;
@@ -190,7 +193,7 @@ body {
     margin-top: 5px;
 }
 #whyChooseSection .container .laptop-image img {
-    margin-left: 10%;
+    margin-left: 22%;
     margin-right: 0;
     padding-right: 0;
     max-width: 100%;
@@ -276,4 +279,45 @@ footer{
       margin:20px 0;
       text-align: center;
       color:#FFFFFF
+  }
+
+
+  /* ----------Responsive CSS------ */
+  @media only screen and (max-width: 600px) {
+      body {
+          overflow-x: hidden;
+      }
+      .ill-image img {
+          width: 300px;
+      }
+      .first-inner-info button {
+          width: 50%;
+      }
+      .keyPoint_box {
+          margin-bottom: 30px;
+          width: 100%;
+      }
+      .world-image img {
+          width: 300px;
+      }
+      #whyChooseSection .container .laptop-image img {
+          margin-left: 2%;
+      }
+      .mask-image img {
+          width:200px;
+      }
+      .card1_box {
+          margin-bottom: 30px;
+          width: 100%;
+      }
+      #logixCoinLogoSection {
+          height: 100%;
+          background-size: auto;
+      }
+      .logix-coin-logo-image img {
+          width: 100px;
+      }
+      .last_name {
+          margin-top: 0px;
+      }
   }
