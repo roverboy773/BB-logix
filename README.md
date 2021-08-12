@@ -1,2 +1,0 @@
-# logix-coin-web-reactjs
-
