@@ -79,8 +79,144 @@ body {
 .first-inner-info button a:hover {
     text-decoration: none;
 }
-
-
+.world-image img {
+    width: 530px;
+}
+.third-inner-info {
+    margin-left: 20px;
+}
+.third-inner-info h4 {
+    color: #0C65E5;
+}
+.mask-image img {
+    width: 1000px;
+}
+#last_innerInfo {
+    width: 80%;
+}
+.last_name {
+    margin-top: 30px;
+}
+.background_map2 {
+    background-image: url('../images/Union\ 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logix-coin-heading h5 {
+    color: white;
+}
+.logix-coin-heading h2 {
+    color: white;
+}
+.logix-coin-heading {
+    text-align: center;
+    padding-top: 40px;
+}
+.logix-coin-logo-image img { 
+    width: 80%;
+}
+#logixCoinLogoSection {
+    background-image: url('../images/rect_hexagon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+    margin-bottom: 5%;
+    
+}
+#questionAnswerSection {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.ques_ans_heading {
+    text-align: center;
+    margin-bottom: 10%;
+}
+.ques_ans_heading h5 {
+    color: #0C65E5;
+}
+.ques_ans_content {
+    width: 90%;
+}
+#question {
+    font-size: 24px;
+}
+.card1_box img {
+    width: 150px;
+}
+.card1_box {
+    background-color: white;
+    border: none;
+    width: 90%;
+    height: 370px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 25%);
+    text-align: center;
+}
+.card1_box h2 {
+    margin-top: 15px;
+}
+.profile_firstname {
+    color: #0C65E5;
+}
+.profile_surname {
+    color: black;
+}
+#profile_job {
+    color: #0C65E5;
+}
+.laptop-image img {
+    width: 550px;
+    
+}
+.why-choose-logix-content {
+    display:flex;
+    
+}
+.why-choose-logix-heading h1 {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.why-choose-logix-heading p {
+    margin-bottom: 10%;
+}
+.why-choose-logix-content input {
+    height: 8vh;
+    width: 8vw;
+    align-items: flex-start;
+}
+.why-choose-logix-content label {
+    margin-left: 20px;
+    margin-bottom: 0px!important;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#whyChooseSection .container .laptop-image img {
+    margin-left: 10%;
+    margin-right: 0;
+    padding-right: 0;
+    max-width: 100%;
+}
+.keyPoint_box {
+    text-align: center;
+    border: none;
+    width: 90%;
+    height: 370px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 25%);
+    background-color: white;
+    padding: 30px;
+}
+#keyPointSection {
+    margin-top: 10%;
+}
+.keyPoint_box p {
+    font-size: 14px;
+}
+.keyPoint_box img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+/* #thirdSectionWorld {
+    background-color: lightgray;
+} */
 /* -------------footer css--------- */
 footer{
     position: relative;
