@@ -196,15 +196,7 @@ section.intro_content{
 
       /* media query for footer */
 
- @media only screen and (max-width: 1000px) {
-        footer{
-          height:667px;
-        }
-      .footer_content{
-          width:80%;
-          padding:0 0px;
-      }
-    }
+ 
 
       /* media quesries for roadmap */
       @media only screen and (max-width: 1400px) {

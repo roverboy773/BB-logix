@@ -136,16 +136,7 @@ footer{
       color:#FFFFFF
   }
 
-  @media only screen and (max-width: 1000px) {
 
-    footer{
-      height:667px;
-    }
-  .footer_content{
-      width:80%;
-      padding:0 0px;
-  }
-}
 
 @media only screen and (max-width: 768px) {
     .Content_wrapper{
