@@ -205,9 +205,20 @@ section.intro_content{
           padding:0 0px;
       }
     }
+    @media only screen and (max-width: 400px) {
 
+        footer{
+          height:700px;
+        }
+      .footer_content{
+          width:80%;
+          padding:0 0px;
+      }
+    }
+
+    
       /* media quesries for roadmap */
-      @media only screen and (max-width: 1400px) {
+ @media only screen and (max-width: 1400px) {
          
         .card_line{
             position: absolute;
@@ -254,10 +265,7 @@ section.intro_content{
             transform: translate(50%,-50%);
             
           }
-    }
-
-
-
+}
 
 @media only screen and (max-width: 1200px) {
     .card_line{
@@ -353,8 +361,8 @@ section.intro_content{
         transform: translate(50%,-50%);
         
       }
-    }
-@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 767px) {
         .cards{
             width:90%
         }
@@ -405,9 +413,8 @@ section.intro_content{
             transform: translate(50%,-50%);
             
           }
-        }
-
-@media only screen and (max-width: 575px) {
+}
+ @media only screen and (max-width: 575px) { 
             .cards{
                 width:90%
             }
@@ -459,4 +466,5 @@ section.intro_content{
                 transform: translate(50%,-50%);
                 
               }
-            }
+} 
+
