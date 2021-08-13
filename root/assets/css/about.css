@@ -30,6 +30,7 @@ body{
 .email_header a {
     color: black;
     cursor: pointer;
+    text-decoration: none;
 }
 .email_header a:hover {
     color: black;
