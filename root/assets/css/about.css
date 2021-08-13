@@ -1,5 +1,5 @@
 body{
-    font-family: Helvetica,Neue;
+    font-family:Helvetica, Neue;
 }
 #main-navigation ul li a {
     color: #0C65E5;
@@ -39,68 +39,41 @@ body{
 
 
 
-
-
-section.intro_content{
-margin-top: 100px;
+.Our_Vision{
+    margin-top: 50px;
+}
+.Content_wrapper{
+    position: relative;
 }
 .content{
+    position: absolute;
+    top:25%;
+    left:28%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+}
+.content h5:nth-child(1),.tokens .token_content h5:nth-child(1){
+color: #0C65E5;
+}
+
+
+.tokens .token_content{
+    width:70%;
+    margin:0 auto;
     text-align: center;
 }
-.content h5:nth-child(1){
-    color: #0C65E5;
- }
-
-
-
- .section_main{
-     margin-top: 100px;
- }
- .main{
-  /* background-image: url('../assets/Union\ 3.png'); */
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-position: 65px 30px;
-     padding-bottom: 50px;
- }   
- .main .message_img{
-     display: block;
-     width:60%;
-     margin: 0 auto;
- }
-
-.main input,textarea{
-    border-radius: 7px;
-    padding:10px 10px;
-    outline: none;
-    border:1px solid #0C65E5;
-    background-color: #FFFFFF;
-    margin-bottom: 30px;
-    width:100%;
-    resize: none;
-    font-size: 20px;
+.tokens .cards_wrapper{
+    margin-top: 100px;
 }
-.main button.submit{
-    outline: none;
-    border: none;
-    padding:10px 10px;
-    border-radius: 7px;
-    width: 100%;
-    background-color: #0C65E5;
-    color:#FFFFFF;
-    font-size: 20px;
+.tokens .cards_wrapper .cards{
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all .2s linear;
+    cursor: pointer;
 }
-.main textarea{
-    height:175px
-}
-::placeholder{
-    color:#CDD2DD;
-}
-
-
-
-.extra_info{
-    width:80%;
+.tokens .cards_wrapper .cards:hover{
+    transform: translateY(-10px);
+    box-shadow: rgba(40, 40, 59, 0.3) 5px 10px 20px ,rgba(40, 40, 59, 0.1) -1px -5px 10px 
 }
 
 footer{
@@ -118,7 +91,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:0 40px;
+ padding:0 40px;
    width:80%;
    height:80%;
    margin:0 auto;
@@ -163,14 +136,8 @@ footer{
       color:#FFFFFF
   }
 
- 
   @media only screen and (max-width: 1000px) {
-    .bounty_content{
-        margin-top: 50px;
-    }
-    .extra_info{
-        width:100%;
-    }
+
     footer{
       height:667px;
     }
@@ -178,4 +145,19 @@ footer{
       width:80%;
       padding:0 0px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+    .Content_wrapper{
+        position: static;
+    }
+.content{
+    position: static;
+   top:0;
+   left:0;
+   transform: translate(0,0);
+   width: 70%;
+   text-align: center;
+   margin: 50px auto ;
+}
 }
