@@ -50,7 +50,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+<<<<<<< HEAD
     height: 800px;
+=======
+    height: 900px;
+>>>>>>> 6f03c7ee984c0a04e051956e1801b4949d3d1d38
     /* position: relative; */
 }
 .ill_content h1{

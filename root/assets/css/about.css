@@ -24,15 +24,15 @@ body{
 .email-logo img {
     width: 30px;
 }
-.email_header {
+.email {
     margin-left: 10px;
 }
-.email_header a {
+.email a {
     color: black;
     cursor: pointer;
     text-decoration: none;
 }
-.email_header a:hover {
+.email a:hover {
     color: black;
     text-decoration: none;
 }
