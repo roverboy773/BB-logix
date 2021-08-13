@@ -4,8 +4,11 @@ section.intro_content{
     .content{
         text-align: center;
     }
-    .content h5:nth-child(1){
+    .content h5{
         color: #0C65E5;
+     }
+     .content p{
+        font-size: 20px;
      }
 
 .cards_wrapper{

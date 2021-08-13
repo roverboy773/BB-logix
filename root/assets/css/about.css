@@ -11,8 +11,11 @@
     transform: translate(-50%,-50%);
     width: 30%;
 }
-.content h5:nth-child(1),.tokens .token_content h5:nth-child(1){
+.content h5{
 color: #0C65E5;
+}
+.content p{
+   font-size: 20px;
 }
 
 
@@ -21,6 +24,13 @@ color: #0C65E5;
     margin:0 auto;
     text-align: center;
 }
+.tokens .token_content h5{
+    color: #0C65E5;
+}
+.tokens .token_content p{
+   font-size: 20px;
+}
+
 .tokens .cards_wrapper{
     margin-top: 100px;
 }

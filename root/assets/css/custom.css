@@ -13,11 +13,12 @@ body {
     position: relative;
     height: 300px;
 }
+
 .keyPoint_box {
     position: absolute;
     top: -120px;
-    
 }
+
 .keyPoint_box2 {
     top: -160px;
 }
@@ -51,11 +52,23 @@ body {
 .email a {
     color: black;
     cursor: pointer;
+    text-decoration: none;
 }
 .email a:hover {
     color: black;
     text-decoration: none;
 }
+/* cards style and hover */
+.keyPoint_box:hover,.card1_box:hover{
+    transform: translateY(-10px);
+    box-shadow: rgba(40, 40, 59, 0.3) 5px 10px 20px ,rgba(40, 40, 59, 0.1) -1px -5px 10px 
+ }
+ .keyPoint_box,.card1_box{
+     border-radius: 8px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     transition: all .2s linear;
+     cursor: pointer;
+ }
 /* --------first section css------ */
 #firstSection {
     background-image: url('../images/lndd.png');
