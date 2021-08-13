@@ -152,17 +152,6 @@
     outline: none;
     box-shadow: none;
 }
-
-@media only screen and (max-width: 1000px) {
-    footer{
-      height:667px;
-    }
-  .footer_content{
-      width:80%;
-      padding:0 0px;
-  }
-}
-
 @media only screen and (max-width: 600px) {
     body {
         overflow-x: hidden;
@@ -176,15 +165,4 @@
     .contactUs-image img{
         width: 350px;
     }
-}
-
-@media only screen and (max-width: 400px) {
-
-    footer{
-      height:700px;
-    }
-  .footer_content{
-      width:80%;
-      padding:0 0px;
-  }
 }

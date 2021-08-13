@@ -45,12 +45,30 @@ body {
     text-decoration: none;
 }
 /* --------first section css------ */
+#firstSection {
+    background-image: url('../images/lndd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 771px;
+    /* position: relative; */
+}
+.ill_content h1{
+color: white;
+}
+.ill_content h3 {
+    color: white;
+}
+.ill_content p {
+    color: white;
+}
 .ill-image {
     width: 100%;
-    
+    margin-top: 21%;
 }
 .ill-image img {
-    width: 600px;
+    display: block;
+    width:100%;
 }
 .first-inner-info h3 {
     margin-bottom: 10px;
@@ -59,21 +77,21 @@ body {
     margin-bottom: 30px;
 }
 .first-inner-info {
-    margin-top: 23%;
+    margin-top: 40%;
     width: 80%;
 }
 .first-inner-info button {
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
-    background-color: #0C65E5;
+    background-color: white;
     border-radius: 38px;
     height: 50px;
     font-size: 18px;
     width: 33%;
 }
 .first-inner-info button a {
-    color: white;
+    color: #0C65E5;
     text-decoration: none;
 }
 .first-inner-info button a:hover {
@@ -88,8 +106,23 @@ body {
 .third-inner-info h4 {
     color: #0C65E5;
 }
-.mask-image img {
-    width: 1000px;
+.fifth-inner-info {
+    margin-top:5%!important;
+
+}
+.fifth-inner-info button {
+    border: none;
+    background-color:#0C65E5;
+    border-radius: 38px;
+    height: 50px;
+    font-size: 18px;
+    width: 33%; 
+}
+.fifth-inner-info button a {
+    color: white;
+}
+.bookPages-image img {
+    width: 500px;
 }
 #last_innerInfo {
     width: 80%;
@@ -97,10 +130,22 @@ body {
 .last_name {
     margin-top: 30px;
 }
+#fifthSection {
+    background-image:url('../images/grey.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 7%;
+}
 .background_map2 {
     background-image: url('../images/Union\ 3.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
+#whyChooseSection {
+    background-image: url('../images/why_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 736px;
 }
 .logix-coin-heading h5 {
     color: white;
@@ -174,12 +219,24 @@ body {
     display:flex;
     
 }
+.why-choose-logix-heading {
+    margin-top: 35px;
+}
+.laptop-image {
+    margin-top: 35px;
+}
+.why-choose-logix-heading h5 {
+    padding-top: 10%;
+    color: white;
+}
 .why-choose-logix-heading h1 {
     margin-top: 12px;
     margin-bottom: 24px;
+    color: white;
 }
 .why-choose-logix-heading p {
     margin-bottom: 10%;
+    color: white;
 }
 .why-choose-logix-content input {
     height: 8vh;
@@ -191,6 +248,7 @@ body {
     margin-bottom: 0px!important;
     font-size: 14px;
     margin-top: 5px;
+    color: white;
 }
 #whyChooseSection .container .laptop-image img {
     margin-left: 22%;
@@ -206,10 +264,11 @@ body {
     box-shadow: 0 1px 5px rgb(0 0 0 / 25%);
     background-color: white;
     padding: 30px;
+     /* position: absolute; */
+    /* bottom: 30%;  */
 }
-#keyPointSection {
-    margin-top: 10%;
-}
+
+
 .keyPoint_box p {
     font-size: 14px;
 }
@@ -217,9 +276,7 @@ body {
     width: 150px;
     margin-bottom: 20px;
 }
-/* #thirdSectionWorld {
-    background-color: lightgray;
-} */
+
 /* -------------footer css--------- */
 footer{
     position: relative;
@@ -287,6 +344,9 @@ footer{
       body {
           overflow-x: hidden;
       }
+      #firdtSection {
+          height: 1000px;
+      }
       .ill-image img {
           width: 300px;
       }
@@ -320,6 +380,41 @@ footer{
       .last_name {
           margin-top: 0px;
       }
+      #fifthSection {
+          background-image:unset;
+         margin-top: 70%;
+      }
+      .bookPages-image img {
+          width: 330px;
+      }
+      .logix-coin-logo-image {
+          margin-top: 0px!important;
+      }
+  }
+  @media only screen and (max-width: 1400px) {
+  #firstSection {
+    background-image: url('../images/lndd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 771px;
+    /* position: relative; */
+}
   }
 
-  
+  @media only screen and (max-width: 767px) {
+    .first-inner-info{
+        margin-top: 10%;
+    }
+    .ill-image{
+        margin-top: 5%;
+    }
+    #firstSection {
+      background-image: url('../images/lndd.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 950px;
+      /* position: relative; */
+  }
+    }
