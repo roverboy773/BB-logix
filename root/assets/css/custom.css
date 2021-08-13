@@ -9,6 +9,18 @@ body {
     box-sizing: border-box;
 }
 
+#keyPointSection {
+    position: relative;
+    height: 300px;
+}
+.keyPoint_box {
+    position: absolute;
+    top: -120px;
+    
+}
+.keyPoint_box2 {
+    top: -160px;
+}
 
 #main-navigation ul li a {
     color: #0C65E5;
