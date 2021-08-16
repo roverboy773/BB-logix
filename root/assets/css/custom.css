@@ -22,10 +22,11 @@ body {
 .keyPoint_box2 {
     top: -160px;
 }
-
+#main-navigation{
+    margin:0 auto
+}
 #main-navigation ul li a {
     color: #0C65E5;
-    
 }
 .ideal-logo {
     width: 100%;
