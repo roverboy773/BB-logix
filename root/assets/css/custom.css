@@ -34,7 +34,7 @@ body {
 .social_media_links img{
     display: block;
     width:40%;
-    margin:30px auto
+    margin:25px auto;
 }
 .social_media_links a:nth-child(1) img{
     width:25%
