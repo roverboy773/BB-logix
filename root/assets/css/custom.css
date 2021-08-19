@@ -202,7 +202,7 @@ color: white;
     background-image: url('../images/why_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 736px;
+   
 }
 .logix-coin-heading h5 {
     color: white;
@@ -268,9 +268,10 @@ color: white;
 #profile_job {
     color: #0C65E5;
 }
+
 .laptop-image img {
-    width: 550px;
-    
+      width:90%;
+      float: right;
 }
 .why-choose-logix-content {
     display:flex;
@@ -307,12 +308,12 @@ color: white;
     margin-top: 5px;
     color: white;
 }
-#whyChooseSection .container .laptop-image img {
+/* #whyChooseSection .container .laptop-image img {
     margin-left: 22%;
     margin-right: 0;
     padding-right: 0;
     max-width: 100%;
-}
+} */
 .keyPoint_box {
     text-align: center;
     border: none;
@@ -426,9 +427,9 @@ footer{
       .world-image img {
           width: 300px;
       }
-      #whyChooseSection .container .laptop-image img {
+      /* #whyChooseSection .container .laptop-image img {
           margin-left: 2%;
-      }
+      } */
       .mask-image img {
           width:200px;
       }
